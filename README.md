@@ -1,4 +1,4 @@
-# PupSpa
+# Company Home Page with Flexbox
 > This project uses CSS flexbox to design and build the layout for a company’s homepage.
 
 ## Table of Contents
