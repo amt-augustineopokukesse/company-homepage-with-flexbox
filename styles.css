@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: amiri, sans-serif;
+    color: black;
+    background-color: #F8F8F8;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .navigation p {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+  
+  #mission {
+    display: flex;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1573167582108-000d05b2faad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #mission .content {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    opacity: 0.8;
+  }
+  
+  #service-container {
+    padding-top: 70px;
+    min-height: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .service {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .service img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: 200px;
+  }
+  
+  figcaption {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #team-container {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+  .team {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .teammember {
+    padding: 10px;
+    color: #f2f3f4;
+    flex-basis: 280px;
+  }
+  
+  .teammember img {
+    margin: 0 auto;
+    width: 200px;
+    min-height: auto;
+  }
+  
